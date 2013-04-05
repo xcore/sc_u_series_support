@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<xpd>
+    <components>
+        <component name = "ADC Library" type = "component" buildresults_path = "module_adc/.module_adc.buildinfo" scope = "General Use" path = "module_adc" metainfo_path = "module_adc/module_adc.metainfo" local = "false" id = "module_adc" description = "Function library for using the ADC">
+            <componentDependency>module_logging</componentDependency>
+            <board>XA-SK-GPIO</board>
+            <keyword>ADC</keyword>
+        </component>
+    </components>
+    <dependency repo = "sc_util">
+        <githash>3f82b846395c07e8dd32ad9951afc209b6ed7efc</githash>
+        <uri>git://github.com/xcore/sc_util</uri>
+    </dependency>
+    <exclude_dir>test_adc_config</exclude_dir>
+    <description>ADC Function Library</description>
+    <location>git://github.com/xcore/sc_adc</location>
+    <name>sc_adc</name>
+    <maintainer>XMOS</maintainer>
+    <vendor>XMOS</vendor>
+    <xcore_repo>sc_adc</xcore_repo>
+    <xpd_version>1.0</xpd_version>
+</xpd>
