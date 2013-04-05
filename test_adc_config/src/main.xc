@@ -45,7 +45,8 @@ void adc_example(chanend c)
         return;
     }
 
-    adc_config.bits_per_sample = ADC_16_BPS;
+    // Use 8-bit accuracy so that the reference voltage shouldn't waver at all
+    adc_config.bits_per_sample = ADC_8_BPS;
 
     adc_config.samples_per_packet = 0;
     if (adc_enable(c, trigger_port, adc_config) != ADC_INVALID_SAMPLES_PER_PACKET)
@@ -62,7 +63,9 @@ void adc_example(chanend c)
     }
 
     adc_config.samples_per_packet = SAMPLES_PER_PACKET;
-    adc_config.calibration_mode = 0;
+
+    // Set it into calibration mode so that a known value will be read
+    adc_config.calibration_mode = 1;
 
     if (adc_enable(c, trigger_port, adc_config) != ADC_OK)
     {
@@ -107,6 +110,12 @@ void adc_example(chanend c)
                     {
                         debug_printf("ADC value: %d = 0x%x\n", i, new_value[i]);
                         current_value[i] = new_value[i];
+
+                        if (new_value[i] != 0x3d)
+                        {
+                            printstrln("ADC not reading expected value (0.8V == 0x3d)");
+                            return;
+                        }
                     }
                 }
                 print_time += PRINT_PERIOD;
