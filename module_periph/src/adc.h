@@ -9,27 +9,25 @@
 #include <platform.h>
 #include <xccompat.h>
 
-#define XS1_NUM_ADC 8
-#define ADC_CALIBRATION_TRIGGERS 6
-
-#define PORT_ADC_TRIGGER XS1_PORT_1I
+/**
+ * The maximum number of ADCs available on any device.
+ */
+#define XS1_MAX_NUM_ADC 8
 
 /**
- * Return codes from ADC functions
- *  \return ADC_OK                          Function completed successfully.
- *  \return ADC_INVALID_BITS_PER_SAMPLE     The number of bits per sample is unsupported
- *  \return ADC_INVALID_SAMPLES_PER_PACKET  The number of samples per packet is unsupported
- *  \return ADC_NO_ACTIVE_ADC               If trying to enable the ADC without configuring
- *                                          at least one input to be active
- *  \return ADC_WRITE_CONTROL_ERROR         If the write to the control register fails
+ *
  */
-typedef enum {
-    ADC_OK = 0,
-    ADC_INVALID_BITS_PER_SAMPLE,
-    ADC_INVALID_SAMPLES_PER_PACKET,
-    ADC_NO_ACTIVE_ADC,
-    ADC_WRITE_CONTROL_ERROR,
-} adc_return_t;
+#define XS1_MAX_SAMPLES_PER_PACKET 5
+
+/**
+ * The number of times the ADC needs to be triggered to calibrate it before use.
+ */
+#define ADC_CALIBRATION_TRIGGERS 6
+
+/**
+ * The port which is used to cause the ADC to take samples.
+ */
+#define PORT_ADC_TRIGGER XS1_PORT_1I
 
 typedef enum {
     ADC_8_BPS  = 0,
@@ -42,12 +40,12 @@ typedef enum {
  * \param input_enable          An array ints to determine which inputs are active.
  *                              Each non-zero input will be enabled.
  * \param bits_per_sample       Select how many bits to sample per ADC.
- * \param samples_per_packet    Number of samples per packet. Must be >0 and <=5.
+ * \param samples_per_packet    Number of samples per packet. Must be >0 and <=XS1_MAX_SAMPLES_PER_PACKET.
  * \param calibration_mode      When set the ADCs will sample a 0.8V reference
  *                              rather than the external voltage.
  */
 typedef struct {
-    int                    input_enable[XS1_NUM_ADC];
+    char                   input_enable[XS1_MAX_NUM_ADC];
     adc_bits_per_sample_t  bits_per_sample;          
     unsigned int           samples_per_packet;       
     int                    calibration_mode;         
@@ -68,12 +66,12 @@ typedef const adc_config_t & const_adc_config_ref_t;
  *
  * \return ADC_OK on success and one of the return codes in adc_return_t on an error. 
  */
-adc_return_t adc_enable(chanend adc_chan, port trigger_port, const_adc_config_ref_t config);
+void adc_enable(tileref periph_tile, chanend adc_chan, out port trigger_port, const_adc_config_ref_t config);
 
 /**
  * Disable all of the ADCs.
  */
-void adc_disable_all();
+void adc_disable_all(tileref periph_tile);
 
 /**
  * Causes the ADC to take one sample. This function is intended to be used with
@@ -83,7 +81,7 @@ void adc_disable_all();
  *
  * \param trigger_port  The port used to trigger ADC samples.
  */
-void adc_trigger(port trigger_port);
+void adc_trigger(out port trigger_port);
 
 /**
  * Trigger the ADC enough times to complete a packet.
@@ -91,7 +89,7 @@ void adc_trigger(port trigger_port);
  * \param config        The ADC ocnfiguration.
  * \param trigger_port  The port used to trigger ADC samples.
  */
-void adc_trigger_packet(port trigger_port, const_adc_config_ref_t config);
+void adc_trigger_packet(out port trigger_port, const_adc_config_ref_t config);
 
 /**
  * A selectable function to read an ADC sample from the chanend. Any

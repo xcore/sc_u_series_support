@@ -38,11 +38,7 @@ void adc_example(chanend c)
     adc_config.samples_per_packet = 1;
     adc_config.calibration_mode = 0;
 
-    if (adc_enable(c, trigger_port, adc_config) != ADC_OK)
-    {
-        printstrln("Error: failed to initialize ADC");
-        return;
-    }
+    adc_enable(xs1_su, c, trigger_port, adc_config);
 
     print_timer :> print_time;
     print_time += PRINT_PERIOD;

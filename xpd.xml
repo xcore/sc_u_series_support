@@ -1,22 +1,23 @@
 <?xml version="1.0" ?>
 <xpd>
     <components>
-        <component name = "ADC Library" type = "component" buildresults_path = "module_adc/.module_adc.buildinfo" scope = "General Use" path = "module_adc" metainfo_path = "module_adc/module_adc.metainfo" local = "false" id = "module_adc" description = "Function library for using the ADC">
+        <component description = "A simple demo of using the ADC library" type = "demoCode" scope = "Example" path = "app_adc_example" local = "false" id = "app_adc_example" name = "Low Level Ethernet Demo">
+            <componentDependency>module_periph</componentDependency>
             <componentDependency>module_logging</componentDependency>
-            <board>XA-SK-GPIO</board>
-            <keyword>ADC</keyword>
+            <componentDependency>module_xassert</componentDependency>
+            <keyword>adc</keyword>
         </component>
     </components>
     <dependency repo = "sc_util">
-        <githash>3f82b846395c07e8dd32ad9951afc209b6ed7efc</githash>
+        <githash>0afc3fb0d57bf800402aecdbf8154d4e06ec8434</githash>
         <uri>git://github.com/xcore/sc_util</uri>
     </dependency>
-    <exclude_dir>test_adc_config</exclude_dir>
-    <description>ADC Function Library</description>
-    <location>git://github.com/xcore/sc_adc</location>
-    <name>sc_adc</name>
+    <description>Collection of utilities to work with in-device peripherals.</description>
+    <location>origin</location>
+    <name>sc_periph</name>
     <maintainer>XMOS</maintainer>
+    <partnumber>XM-002789-DH</partnumber>
+    <subpartnumber>XM-002790-SM</subpartnumber>
     <vendor>XMOS</vendor>
-    <xcore_repo>sc_adc</xcore_repo>
     <xpd_version>1.0</xpd_version>
 </xpd>
