@@ -158,12 +158,25 @@
 									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include/gcc&quot;"/>
                                     <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_periph}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_periph/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example/.build}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_periph/_build}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example/.build/m_logging/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_u_series_support/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example/.build/m_periph/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example/bin}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_periph/_build/xlatex}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_logging/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example/.build/m_periph}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example/.build/m_logging}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_xassert/src}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_logging}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example/src}&quot;' />
-<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_logging/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example/.build/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example/.build/fake_inc}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_u_series_support}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_xassert}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_periph/_build/xlatex/.doctrees}&quot;' />
 
 								</option>
 								<inputType id = "com.xmos.cdt.xc.compiler.input.2802586" name="XC" superClass="com.xmos.cdt.xc.compiler.input"/>
@@ -277,12 +290,25 @@
 									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include/gcc&quot;"/>
                                     <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_periph}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_periph/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example/.build}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_periph/_build}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example/.build/m_logging/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_u_series_support/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example/.build/m_periph/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example/bin}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_periph/_build/xlatex}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_logging/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example/.build/m_periph}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example/.build/m_logging}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_xassert/src}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_logging}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example/src}&quot;' />
-<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_logging/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example/.build/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example/.build/fake_inc}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_u_series_support}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_xassert}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_periph/_build/xlatex/.doctrees}&quot;' />
 
 								</option>
 								<inputType id = "com.xmos.cdt.c.compiler.input.c.47237711" name="C" superClass="com.xmos.cdt.c.compiler.input.c"/>
@@ -402,12 +428,25 @@
 									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include/c++/4.2.1/xcore-xmos-elf&quot;"/>
                                     <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_periph}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_periph/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example/.build}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_periph/_build}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example/.build/m_logging/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_u_series_support/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example/.build/m_periph/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example/bin}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_periph/_build/xlatex}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_logging/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example/.build/m_periph}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example/.build/m_logging}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_xassert/src}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_logging}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example/src}&quot;' />
-<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_logging/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example/.build/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example/.build/fake_inc}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_u_series_support}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_xassert}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_periph/_build/xlatex/.doctrees}&quot;' />
 
 								</option>
 								<inputType id = "com.xmos.cdt.cxx.compiler.input.cpp.47601560" name="C++" superClass="com.xmos.cdt.cxx.compiler.input.cpp"/>
