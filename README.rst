@@ -1,19 +1,19 @@
-XCORE.com ADC Library
-.....................
+XCORE.com In-Device Peripheral Library
+.....................................
 
 :Latest release: 1.0.0
 :Maintainer: XMOS
-:Description: ADC Function Library
+:Description: In-Device Peripheral Function Library
 
-The ADC Function Library provides a set of functions and types which aid the
-users of the ADC.
+The In-Device Peripheral Function Library provides a set of functions and 
+datatypes which aid the use of the in-device peripherals.
 
 Key Features
 ============
 
-module_adc:
+module_periph:
  
-* Configuration functions
+* Currently contains support for the Analog to Digital Converters (ADCs)
 
 Known Issues
 ============
@@ -30,5 +30,5 @@ issues submitted as at the discretion of the maintainer for this line.
 Required software (dependencies)
 ================================
 
-  * None
+  * sc_util (git://github.com/xcore/sc_util)
 

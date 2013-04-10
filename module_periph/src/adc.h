@@ -29,6 +29,9 @@
  */
 #define PORT_ADC_TRIGGER XS1_PORT_1I
 
+/**
+ * Valid bits_per_sample values (8, 16 or 32).
+ */
 typedef enum {
     ADC_8_BPS  = 0,
     ADC_16_BPS = 1,
@@ -60,6 +63,9 @@ typedef const adc_config_t & const_adc_config_ref_t;
 /**
  * Configure and enable the requested ADCs. Will also perform the calibration
  * pulses so that the ADCs are ready to provide data.
+ *
+ * adc_enable() also checks that the configuration is valid and will raise a
+ * trap if attempting to incorrectly configure the ADCs.
  *
  * \param c       The chanend to which all ADC samples will be sent.
  * \param config  The configuration to be used.

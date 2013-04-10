@@ -1,0 +1,33 @@
+-- -*- mode: lua -*-
+
+configPoints = {}
+
+derivedValues = {}
+
+ports = {
+  p_adc_trigger = {
+    short   = "ADC Trigger Port",
+    long    = "Port which is used to generate ticks which cause the ADCs to take samples",
+    help    = "",
+    width   = 1,
+    FIXME   = "XS1_PORT_1I" 
+  }
+}
+
+channels = {}
+
+function getConfigStatus()
+   return "Trusted", {}
+end
+
+generatedCode = {
+   includes = {},
+   globals  = "",
+   body  = ""
+}
+
+api = {
+    "adc_enable", "adc_disable_all",
+    "adc_trigger", "adc_trigger_packet",
+    "adc_read", "adc_read_packet"
+}

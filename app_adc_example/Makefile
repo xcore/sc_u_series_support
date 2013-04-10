@@ -2,7 +2,7 @@
 # compiled for. It either refers to an XN file in the source directories
 # or a valid argument for the --target option when compiling.
 
-TARGET = xp_skc_su1.xn
+TARGET = XP-SKC-SU1.xn
 
 XCC_FLAGS = -g -O3
 
@@ -11,7 +11,7 @@ XCC_FLAGS = -g -O3
 # The USED_MODULES variable lists other module used by the application. These
 # modules will extend the SOURCE_DIRS, INCLUDE_DIRS and LIB_DIRS variables. 
 # Modules are expected to be in the directory above the BASE_DIR directory.
-USED_MODULES = module_periph module_logging module_xassert
+USED_MODULES = module_u_series_support module_logging module_xassert
 
 #=============================================================================
 # The following part of the Makefile includes the common build infrastructure

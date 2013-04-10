@@ -1,9 +1,16 @@
-<Add title here>
-================
+In-Device Peripheral Support Library
+====================================
 
-:scope: <Put one of Roadmap, Example, Early Development or General Use>
-:description: <Add one line here>
-:keywords: <Add comma separated list of keywords>
-:boards: <Add comma separated list of supported boards>
+:scope: General Use
+:description: A library containing functions to enable the use of in-device peripherals.
+:keywords: adc
 
-<Add description of software block>
+A library containing functions to enable the use of in-device peripherals. Currently
+provides support for:
+
+ * XS1-U Series devices
+
+Peripherals supported:
+
+ * ADC
+

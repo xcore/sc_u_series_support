@@ -1,9 +1,8 @@
-<Add title here>
-================
+XS1-U Series In-Device Peripheral Support
+=========================================
 
-:scope: <Put one of Roadmap, Example, Early Development or General Use>
-:description: <Add one line here>
-:keywords: <Add comma separated list of keywords>
-:boards: <Add comma separated list of supported boards>
+:scope: General Use
+:description: Library providing support for XS1-U Series devices.
+:keywords: adc peripherals
 
-<Add description of software block>
+Library providing support for XS1-U Series devices.

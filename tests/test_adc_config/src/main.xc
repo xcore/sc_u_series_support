@@ -1,7 +1,8 @@
 #include <print.h>
 #include "debug_print.h"
 #include "xassert.h"
-#include "adc.h"
+#include "trycatch.h"
+#include "u_series_support.h"
 
 #define TEST_LENGTH   1000000000
 #define PRINT_PERIOD   100000000
@@ -21,13 +22,15 @@ void adc_example(chanend c)
     unsigned int current_value[NUM_ACTIVE_ADCS] = { 0 };
     unsigned int new_value[NUM_ACTIVE_ADCS] = { 0 };
     unsigned int adc_ptr = 0;
+    exception_t exception;
 
     adc_config_t adc_config = { { 0, 0, 0, 0, 0, 0, 0, 0 }, ADC_8_BPS, 1, 0 };
 
-    if (adc_enable(c, trigger_port, adc_config) != ADC_NO_ACTIVE_ADC)
-    {
-        printstrln("Failed to detect no active ADCs");
-        return;
+    TRY {
+        adc_enable(xs1_su, c, trigger_port, adc_config);
+        printstrln("Error: Failed to detect no active ADCs");
+    } CATCH(exception) {
+        printstrln("Pass: detected no active ADCs");
     }
 
     for (int i = 0; i < NUM_ACTIVE_ADCS; i++)
@@ -39,27 +42,30 @@ void adc_example(chanend c)
     }
 
     adc_config.bits_per_sample = 2;
-    if (adc_enable(c, trigger_port, adc_config) != ADC_INVALID_BITS_PER_SAMPLE)
-    {
-        printstrln("Error: failed to detect invalide bits_per_sample");
-        return;
+    TRY {
+        adc_enable(xs1_su, c, trigger_port, adc_config);
+        printstrln("Error: failed to detect invalid bits_per_sample");
+    } CATCH(exception) {
+        printstrln("Pass: detected invalid bits_per_sample");
     }
 
     // Use 8-bit accuracy so that the reference voltage shouldn't waver at all
     adc_config.bits_per_sample = ADC_8_BPS;
 
     adc_config.samples_per_packet = 0;
-    if (adc_enable(c, trigger_port, adc_config) != ADC_INVALID_SAMPLES_PER_PACKET)
-    {
+    TRY {
+        adc_enable(xs1_su, c, trigger_port, adc_config);
         printstrln("Error: failed to detect invalide samples_per_packet");
-        return;
+    } CATCH(exception) {
+        printstrln("Pass: detected invalid samples_per_packet");
     }
 
     adc_config.samples_per_packet = 6;
-    if (adc_enable(c, trigger_port, adc_config) != ADC_INVALID_SAMPLES_PER_PACKET)
-    {
+    TRY {
+        adc_enable(xs1_su, c, trigger_port, adc_config);
         printstrln("Error: failed to detect invalide samples_per_packet");
-        return;
+    } CATCH(exception) {
+        printstrln("Pass: detected invalid samples_per_packet");
     }
 
     adc_config.samples_per_packet = SAMPLES_PER_PACKET;
@@ -67,11 +73,7 @@ void adc_example(chanend c)
     // Set it into calibration mode so that a known value will be read
     adc_config.calibration_mode = 1;
 
-    if (adc_enable(c, trigger_port, adc_config) != ADC_OK)
-    {
-        printstrln("Error: failed to initialize ADC");
-        return;
-    }
+    adc_enable(xs1_su, c, trigger_port, adc_config);
     printstrln("ADC initialized and ready to use");
 
     print_timer :> print_time;

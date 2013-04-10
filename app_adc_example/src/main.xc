@@ -14,7 +14,7 @@
  **/                                   
 #include <print.h>
 #include "debug_print.h"
-#include "adc.h"
+#include "u_series_support.h"
 
 #define PRINT_PERIOD    10000000
 #define TRIGGER_PERIOD    100000
