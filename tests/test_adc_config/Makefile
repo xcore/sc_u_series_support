@@ -2,7 +2,7 @@
 # compiled for. It either refers to an XN file in the source directories
 # or a valid argument for the --target option when compiling.
 
-TARGET = xp_skc_su1.xn
+TARGET = XP-SKC-SU1.xn
 
 XCC_FLAGS = -g -O3
 
