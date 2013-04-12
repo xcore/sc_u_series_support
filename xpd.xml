@@ -9,15 +9,19 @@
             <keyword>adc</keyword>
         </component>
         <component name = "In-Device Peripheral Support Library" type = "component" buildresults_path = "module_periph/.module_periph.buildinfo" scope = "General Use" path = "module_periph" metainfo_path = "module_periph/module_periph.metainfo" local = "false" id = "module_periph" description = "A library containing functions to enable the use of in-device peripherals.">
+            <componentDependency>module_logging</componentDependency>
+            <componentDependency>module_xassert</componentDependency>
             <keyword>adc</keyword>
         </component>
         <component name = "XS1-U Series In-Device Peripheral Support" type = "component" buildresults_path = "module_u_series_support/.module_u_series_support.buildinfo" scope = "General Use" path = "module_u_series_support" metainfo_path = "module_u_series_support/module_u_series_support.metainfo" local = "false" id = "module_u_series_support" description = "Library providing support for XS1-U Series devices.">
             <componentDependency>module_periph</componentDependency>
+            <componentDependency>module_logging</componentDependency>
+            <componentDependency>module_xassert</componentDependency>
             <keyword>adc peripherals</keyword>
         </component>
     </components>
     <dependency repo = "sc_util">
-        <githash>0afc3fb0d57bf800402aecdbf8154d4e06ec8434</githash>
+        <githash>fed859664670a0b48ed42623b5f5dc10b4f939a3</githash>
         <uri>git://github.com/xcore/sc_util</uri>
     </dependency>
     <description>Collection of utilities to work with in-device peripherals.</description>
@@ -27,6 +31,7 @@
     <name>sc_periph</name>
     <maintainer>XMOS</maintainer>
     <partnumber>XM-002789-DH</partnumber>
+    <release parenthash = "546a89386f7155b450780bc70ccbeff70f64548c" version = "1.0.0beta0"></release>
     <subpartnumber>XM-002790-SM</subpartnumber>
     <vendor>XMOS</vendor>
     <xpd_version>1.0</xpd_version>
