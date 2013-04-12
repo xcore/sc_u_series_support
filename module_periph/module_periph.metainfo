@@ -6,11 +6,11 @@ derivedValues = {}
 
 ports = {
   p_adc_trigger = {
-    short   = "ADC Trigger Port",
-    long    = "Port which is used to generate ticks which cause the ADCs to take samples",
-    help    = "",
-    width   = 1,
-    FIXME   = "XS1_PORT_1I" 
+    short      = "ADC Trigger Port",
+    long       = "Port which is used to generate ticks which cause the ADCs to take samples",
+    help       = "",
+    width      = 1,
+    fixedValue = "XS1_PORT_1I" 
   }
 }
 

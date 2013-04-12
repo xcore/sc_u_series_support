@@ -32,10 +32,10 @@
 /**
  * Valid bits_per_sample values (8, 16 or 32).
  */
-typedef enum {
-    ADC_8_BPS  = 0,
-    ADC_16_BPS = 1,
-    ADC_32_BPS = 3,
+typedef enum adc_bits_per_sample_t {
+    ADC_8_BPS  = 0,         /**< Samples will be truncated to 8 bits */
+    ADC_16_BPS = 1,         /**< Samples will be placed in the MSB 12 bits of the half word */
+    ADC_32_BPS = 3,         /**< Samples will be placed in the MSB 12 bits of the word */
 } adc_bits_per_sample_t;
 
 /**
@@ -67,8 +67,10 @@ typedef const adc_config_t & const_adc_config_ref_t;
  * adc_enable() also checks that the configuration is valid and will raise a
  * trap if attempting to incorrectly configure the ADCs.
  *
- * \param c       The chanend to which all ADC samples will be sent.
- * \param config  The configuration to be used.
+ * \param periph_tile  The identifier of the tile containing the ADCs
+ * \param adc_chan     The chanend to which all ADC samples will be sent.
+ * \param trigger_port The port connected to the ADC trigger pin.
+ * \param config       The configuration to be used.
  *
  * \return ADC_OK on success and one of the return codes in adc_return_t on an error. 
  */
@@ -85,15 +87,15 @@ void adc_disable_all(tileref periph_tile);
  * enough times to ensure that an entire data packet will be available before
  * the adc_read_packet() is called.
  *
- * \param trigger_port  The port used to trigger ADC samples.
+ * \param trigger_port The port connected to the ADC trigger pin.
  */
 void adc_trigger(out port trigger_port);
 
 /**
  * Trigger the ADC enough times to complete a packet.
  *
- * \param config        The ADC ocnfiguration.
- * \param trigger_port  The port used to trigger ADC samples.
+ * \param trigger_port The port connected to the ADC trigger pin.
+ * \param config       The ADC ocnfiguration.
  */
 void adc_trigger_packet(out port trigger_port, const_adc_config_ref_t config);
 
@@ -107,8 +109,9 @@ void adc_trigger_packet(out port trigger_port, const_adc_config_ref_t config);
  * Note that the configuration must be the same as that used when
  * enabling the ADCs.
  *
- * \param config  The ADC configuration.
- * \param data    The word to place the data in.
+ * \param adc_chan     The chanend to which all ADC samples will be sent.
+ * \param config       The ADC configuration.
+ * \param data         The word to place the data in.
  *
  */
 #ifdef __XC__
@@ -127,11 +130,12 @@ void adc_read(chanend adc_chan,
  * Note that the configuration must be the same as that used when
  * enabling the ADCs.
  *
- * \param config  The ADC configuration.
- * \param data    The buffer to place the returned data in. Each
- *                sample will be placed in a separate word. The
- *                buffer must be big enough to store all the data
- *                that will be read (samples_per_packet words).
+ * \param adc_chan     The chanend to which all ADC samples will be sent.
+ * \param config       The ADC configuration.
+ * \param data         The buffer to place the returned data in. Each
+ *                     sample will be placed in a separate word. The
+ *                     buffer must be big enough to store all the data
+ *                     that will be read (samples_per_packet words).
  *
  */
 #ifdef __XC__
