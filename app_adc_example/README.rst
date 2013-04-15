@@ -1,5 +1,5 @@
-Low Level Ethernet Demo
-=======================
+Example ADC Library Usage
+=========================
 
 :scope: Example
 :description: A simple demo of using the ADC library
