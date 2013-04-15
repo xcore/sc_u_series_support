@@ -1,7 +1,7 @@
 XCORE.com In-Device Peripheral Library
 .....................................
 
-:Latest release: 1.0.0beta0
+:Latest release: 1.0.0beta1
 :Maintainer: XMOS
 :Description: Collection of utilities to work with in-device peripherals.
 

@@ -32,6 +32,7 @@
     <maintainer>XMOS</maintainer>
     <partnumber>XM-002789-DH</partnumber>
     <release parenthash = "546a89386f7155b450780bc70ccbeff70f64548c" version = "1.0.0beta0" githash = "1951dd091e02f1d1471adcab48f3f0df58d69041"></release>
+    <release parenthash = "cf62c9d64b74f719690f40acc3ad388e11faeee4" version = "1.0.0beta1"></release>
     <subpartnumber>XM-002790-SM</subpartnumber>
     <vendor>XMOS</vendor>
     <xpd_version>1.0</xpd_version>
