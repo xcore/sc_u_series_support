@@ -1,7 +1,7 @@
 Peripheral Tile Support Library
 ...............................
 
-:Latest release: 1.0.0beta2
+:Latest release: 1.0.0beta3
 :Maintainer: XMOS
 :Description: Collection of functions to support peripheral tiles.
 
