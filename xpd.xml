@@ -19,6 +19,7 @@
         <version>1.0.1rc0</version>
     </dependency>
     <description>Collection of functions to support peripheral tiles.</description>
+    <docdir>app_adc_example_u/doc_quickstart</docdir>
     <docdir>module_usb_tile_support/doc</docdir>
     <location>origin</location>
     <name>sc_periph</name>
