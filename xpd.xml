@@ -1,22 +1,21 @@
 <?xml version="1.0" ?>
 <xpd>
     <components>
-        <component description = "A simple demo of using the xCORE-USB ADC" type = "demoCode" scope = "Example" path = "app_adc_example_u" local = "false" id = "app_adc_example_u" name = "xCORE-USB ADC Example">
-            <componentDependency>module_periph</componentDependency>
+        <component description = "A simple demo of using the xCORE-USB peripheral tile ADC" type = "demoCode" scope = "Example" path = "app_adc_example_u" local = "false" id = "app_adc_example_u" name = "Example xCORE-USB Peripheral Tile ADC Usage">
             <componentDependency>module_logging</componentDependency>
+            <componentDependency>module_usb_tile_support</componentDependency>
             <componentDependency>module_xassert</componentDependency>
-            <componentDependency>module_u_series_support</componentDependency>
             <keyword>adc</keyword>
         </component>
-        <component name = "U-Series Peripheral Tile Support" type = "component" buildresults_path = "module_usb_tile_support/.module_usb_tile_support.buildinfo" scope = "General Use" path = "module_usb_tile_support" metainfo_path = "module_usb_tile_support/module_u_series_support.metainfo" local = "false" id = "module_usb_tile_support" description = "Library providing support for U-Series peripheral tile.">
-            <componentDependency>module_logging</componentDependency>
+        <component name = "U-Series Peripheral Tile Support" type = "component" buildresults_path = "module_usb_tile_support/.module_usb_tile_support.buildinfo" scope = "General Use" path = "module_usb_tile_support" metainfo_path = "module_usb_tile_support/module_usb_tile_support.metainfo" local = "false" id = "module_usb_tile_support" description = "Library providing support for U-Series devices.">
             <componentDependency>module_xassert</componentDependency>
             <keyword>adc peripherals</keyword>
         </component>
     </components>
     <dependency repo = "sc_util">
-        <githash>fed859664670a0b48ed42623b5f5dc10b4f939a3</githash>
+        <githash>1ed35a50e2d9cc98fcff4c7cc3fb399385ec5d70</githash>
         <uri>git://github.com/xcore/sc_util</uri>
+        <version>1.0.1rc0</version>
     </dependency>
     <description>Collection of functions to support peripheral tiles.</description>
     <docdir>module_usb_tile_support/doc</docdir>
@@ -25,7 +24,7 @@
     <maintainer>XMOS</maintainer>
     <partnumber>XM-002789-DH</partnumber>
     <release parenthash = "546a89386f7155b450780bc70ccbeff70f64548c" version = "1.0.0beta0" githash = "1951dd091e02f1d1471adcab48f3f0df58d69041"></release>
-    <release parenthash = "cf62c9d64b74f719690f40acc3ad388e11faeee4" version = "1.0.0beta1"></release>
+    <release parenthash = "cf62c9d64b74f719690f40acc3ad388e11faeee4" version = "1.0.0beta1" githash = "7cfd34fdf821b6e810b5ab403cc53586911cd2db"></release>
     <subpartnumber>XM-002790-SM</subpartnumber>
     <vendor>XMOS</vendor>
     <xpd_version>1.0</xpd_version>
