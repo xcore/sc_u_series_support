@@ -1,13 +1,13 @@
 <?xml version="1.0" ?>
 <xpd>
     <components>
-        <component description = "A simple demo of using the xCORE-USB peripheral tile ADC" type = "demoCode" scope = "Example" path = "app_adc_example_u" local = "false" id = "app_adc_example_u" name = "xCORE-USB Peripheral Tile ADC Usage Example">
+        <component description = "A simple demo of using the xCORE-USB peripheral tile ADC" type = "demoCode" scope = "Example" path = "app_adc_example_u" local = "false" id = "app_adc_example_u" name = "xCORE-USB Peripheral Tile ADC Example">
             <componentDependency>module_logging</componentDependency>
             <componentDependency>module_usb_tile_support</componentDependency>
             <componentDependency>module_xassert</componentDependency>
             <keyword>adc</keyword>
         </component>
-        <component name = "U-Series Peripheral Tile Support" type = "component" buildresults_path = "module_usb_tile_support/.module_usb_tile_support.buildinfo" scope = "General Use" path = "module_usb_tile_support" metainfo_path = "module_usb_tile_support/module_usb_tile_support.metainfo" local = "false" id = "module_usb_tile_support" description = "Library providing support for U-Series devices.">
+        <component name = "xCORE-USB Peripheral Tile Support Library" type = "component" buildresults_path = "module_usb_tile_support/.module_usb_tile_support.buildinfo" scope = "General Use" path = "module_usb_tile_support" metainfo_path = "module_usb_tile_support/module_usb_tile_support.metainfo" local = "false" id = "module_usb_tile_support" description = "Library providing support for U-Series devices.">
             <componentDependency>module_logging</componentDependency>
             <componentDependency>module_xassert</componentDependency>
             <keyword>adc peripherals</keyword>
