@@ -1,8 +1,9 @@
-U-Series Peripheral Tile Support
-================================
+xCORE-USB Peripheral Tile Support Library
+=========================================
 
 :scope: General Use
-:description: Library providing support for U-Series devices.
+:description: Library providing support for xCORE-USB (U-Series) devices.
 :keywords: adc peripherals
 
-Library providing support for XS1-U Series devices.
+Library providing support for xCORE-USB (U-Series) devices. This is
+currently limited to the ADC.
