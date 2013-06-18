@@ -1,7 +1,7 @@
-In-Device Peripheral Library
-============================
+USB Tile Support Library
+========================
 
-This module provides access to the in-device peripherals. 
+This module provides access functions to the U-Series USB peripheral tile.
 
 Currently the library only supports the Analog to Digital Converters (ADC).
 

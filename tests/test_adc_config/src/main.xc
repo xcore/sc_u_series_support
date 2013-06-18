@@ -1,8 +1,7 @@
-#include <print.h>
+#include "usb_tile_support.h"
 #include "debug_print.h"
 #include "xassert.h"
 #include "trycatch.h"
-#include "u_series_support.h"
 
 #define TEST_LENGTH   1000000000
 #define PRINT_PERIOD   100000000

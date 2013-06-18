@@ -1,20 +1,21 @@
-XCORE.com In-Device Peripheral Library
-.....................................
+Peripheral Tile Support Library
+...............................
 
 :Latest release: 1.0.0beta1
 :Maintainer: XMOS
-:Description: Collection of utilities to work with in-device peripherals.
+:Description: Collection of support functions for peripheral tiles.
 
-
-The In-Device Peripheral Function Library provides a set of functions and 
-datatypes which aid the use of the in-device peripherals.
+The Peripheral Tile Support Library provides a set of functions and 
+datatypes which aid the use of the peripheral tiles.
 
 Key Features
 ============
 
-module_periph:
+module_usb_tile_support:
  
-* Currently contains support for the Analog to Digital Converters (ADCs)
+* Support for the U-Series Analog to Digital Converters (ADCs)
+
+*Note: support for USB devices is provided by the USB Device Component*
 
 Known Issues
 ============
