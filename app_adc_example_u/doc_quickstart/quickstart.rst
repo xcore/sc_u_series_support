@@ -1,5 +1,7 @@
-xCORE-USB ADC Usage Example
-===========================
+xCORE-USB ADC Quick Start Guide
+===============================
+
+.. _app_adc_example_u_quick_start:
 
 app_adc_example_u Quick Start Guide
 -----------------------------------

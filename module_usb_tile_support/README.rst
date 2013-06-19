@@ -7,3 +7,5 @@ xCORE-USB Peripheral Tile Support Library
 
 Library providing support for xCORE-USB (U-Series) devices. This is
 currently limited to the ADC.
+
+The ``xCORE-USB Peripheral Tile ADC Example`` demonstrates how to use this library.
