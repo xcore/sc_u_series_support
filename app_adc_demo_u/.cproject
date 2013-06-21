@@ -3,8 +3,8 @@
 <cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
     <storageModule moduleId="org.eclipse.cdt.core.settings">
               
-        <cconfiguration id="com.xmos.cdt.toolchain.14891364">
-            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.xmos.cdt.toolchain.14891364" moduleId="org.eclipse.cdt.core.settings" name="Default">
+        <cconfiguration id="com.xmos.cdt.toolchain.52614669">
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.xmos.cdt.toolchain.52614669" moduleId="org.eclipse.cdt.core.settings" name="Default">
                 <externalSettings />
                 <extensions>
                     <extension id="com.xmos.cdt.core.XEBinaryParser" point="org.eclipse.cdt.core.BinaryParser" />
@@ -33,17 +33,17 @@
                 </buildTargets>
             </storageModule>
             <storageModule moduleId="cdtBuildSystem" version="4.0.0">
-                <configuration buildProperties="" description="" id="com.xmos.cdt.toolchain.14891364" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
-                    <folderInfo id="com.xmos.cdt.toolchain.14891364.1127281840" name="/" resourcePath="">
-                        <toolChain id = "com.xmos.cdt.toolchain.24896909" name="com.xmos.cdt.toolchain" superClass="com.xmos.cdt.toolchain">
-                            <targetPlatform archList="all" binaryParser="com.xmos.cdt.core.XEBinaryParser" id = "com.xmos.cdt.core.platform.72920820" isAbstract="false" osList="linux,win32,macosx" superClass="com.xmos.cdt.core.platform" />
-                            <builder arguments="" id = "com.xmos.cdt.builder.base.44071534" keepEnvironmentInBuildfile="false" managedBuildOn="false" superClass="com.xmos.cdt.builder.base">
+                <configuration buildProperties="" description="" id="com.xmos.cdt.toolchain.52614669" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
+                    <folderInfo id="com.xmos.cdt.toolchain.52614669.1127281840" name="/" resourcePath="">
+                        <toolChain id = "com.xmos.cdt.toolchain.10451204" name="com.xmos.cdt.toolchain" superClass="com.xmos.cdt.toolchain">
+                            <targetPlatform archList="all" binaryParser="com.xmos.cdt.core.XEBinaryParser" id = "com.xmos.cdt.core.platform.49792863" isAbstract="false" osList="linux,win32,macosx" superClass="com.xmos.cdt.core.platform" />
+                            <builder arguments="" id = "com.xmos.cdt.builder.base.31971513" keepEnvironmentInBuildfile="false" managedBuildOn="false" superClass="com.xmos.cdt.builder.base">
                                 <outputEntries>
                                     <entry flags="VALUE_WORKSPACE_PATH" kind="outputPath" name="bin" />
                                 </outputEntries>
                             </builder>
-                            <tool id = "com.xmos.cdt.xc.compiler.72242367" name="com.xmos.cdt.xc.compiler" superClass="com.xmos.cdt.xc.compiler">
-                                <option id = "com.xmos.c.compiler.option.defined.symbols.58070591" name="com.xmos.c.compiler.option.defined.symbols" superClass="com.xmos.c.compiler.option.defined.symbols" valueType="definedSymbols">
+                            <tool id = "com.xmos.cdt.xc.compiler.9054330" name="com.xmos.cdt.xc.compiler" superClass="com.xmos.cdt.xc.compiler">
+                                <option id = "com.xmos.c.compiler.option.defined.symbols.54578557" name="com.xmos.c.compiler.option.defined.symbols" superClass="com.xmos.c.compiler.option.defined.symbols" valueType="definedSymbols">
                                     <listOptionValue builtIn="false" value="__SHRT_MAX__=32767"/>
                                     <listOptionValue builtIn="false" value="__SCHAR_MAX__=127"/>
                                     <listOptionValue builtIn="false" value="__SIZE_TYPE__=unsigned"/>
@@ -153,23 +153,23 @@
                                     <listOptionValue builtIn="false" value="__EXCEPTIONS=1"/>
                                     <listOptionValue builtIn="false" value="__WCHAR_UNSIGNED__=1"/>
                                 </option>
-								<option id = "com.xmos.xc.compiler.option.include.paths.4472388" name="com.xmos.xc.compiler.option.include.paths" superClass="com.xmos.xc.compiler.option.include.paths" valueType="includePath">
+								<option id = "com.xmos.xc.compiler.option.include.paths.75736126" name="com.xmos.xc.compiler.option.include.paths" superClass="com.xmos.xc.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include/gcc&quot;"/>
                                     <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_usb_tile_support}&quot;' />
-<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example_u}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_xassert/src}&quot;' />
-<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example_u/src}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_logging}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_demo_u}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_logging/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_demo_u/src}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_xassert}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_usb_tile_support/src}&quot;' />
 
 								</option>
-								<inputType id = "com.xmos.cdt.xc.compiler.input.64390563" name="XC" superClass="com.xmos.cdt.xc.compiler.input"/>
+								<inputType id = "com.xmos.cdt.xc.compiler.input.42795720" name="XC" superClass="com.xmos.cdt.xc.compiler.input"/>
                             </tool>
-							<tool id = "com.xmos.cdt.c.compiler.36847499" name="com.xmos.cdt.c.compiler" superClass="com.xmos.cdt.c.compiler">
-								<option id = "com.xmos.c.compiler.option.defined.symbols.42569438" name="com.xmos.c.compiler.option.defined.symbols" superClass="com.xmos.c.compiler.option.defined.symbols" valueType="definedSymbols">
+							<tool id = "com.xmos.cdt.c.compiler.39305917" name="com.xmos.cdt.c.compiler" superClass="com.xmos.cdt.c.compiler">
+								<option id = "com.xmos.c.compiler.option.defined.symbols.93253531" name="com.xmos.c.compiler.option.defined.symbols" superClass="com.xmos.c.compiler.option.defined.symbols" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="__STDC__=1"/>
 									<listOptionValue builtIn="false" value="__STDC_VERSION__=199901L"/>
 									<listOptionValue builtIn="false" value="__STDC_HOSTED__=1"/>
@@ -272,23 +272,23 @@
 									<listOptionValue builtIn="false" value="XCC_VERSION_MINOR=0"/>
 									<listOptionValue builtIn="false" value="__XCC_HAVE_FLOAT__=1"/>
 								</option>
-								<option id = "com.xmos.c.compiler.option.include.paths.26544319" name="com.xmos.c.compiler.option.include.paths" superClass="com.xmos.c.compiler.option.include.paths" valueType="includePath">
+								<option id = "com.xmos.c.compiler.option.include.paths.38954777" name="com.xmos.c.compiler.option.include.paths" superClass="com.xmos.c.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include/gcc&quot;"/>
                                     <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_usb_tile_support}&quot;' />
-<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example_u}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_xassert/src}&quot;' />
-<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example_u/src}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_logging}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_demo_u}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_logging/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_demo_u/src}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_xassert}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_usb_tile_support/src}&quot;' />
 
 								</option>
-								<inputType id = "com.xmos.cdt.c.compiler.input.c.8994033" name="C" superClass="com.xmos.cdt.c.compiler.input.c"/>
+								<inputType id = "com.xmos.cdt.c.compiler.input.c.10147031" name="C" superClass="com.xmos.cdt.c.compiler.input.c"/>
 							</tool>
-							<tool id = "com.xmos.cdt.cxx.compiler.7584123" name="com.xmos.cdt.cxx.compiler" superClass="com.xmos.cdt.cxx.compiler">
-								<option id = "com.xmos.cxx.compiler.option.defined.symbols.54568625" name="com.xmos.cxx.compiler.option.defined.symbols" superClass="com.xmos.cxx.compiler.option.defined.symbols" valueType="definedSymbols">
+							<tool id = "com.xmos.cdt.cxx.compiler.78700565" name="com.xmos.cdt.cxx.compiler" superClass="com.xmos.cdt.cxx.compiler">
+								<option id = "com.xmos.cxx.compiler.option.defined.symbols.16334085" name="com.xmos.cxx.compiler.option.defined.symbols" superClass="com.xmos.cxx.compiler.option.defined.symbols" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="__STDC__=1"/>
 									<listOptionValue builtIn="false" value="__cplusplus=1"/>
 									<listOptionValue builtIn="false" value="__STDC_HOSTED__=1"/>
@@ -395,22 +395,22 @@
 									<listOptionValue builtIn="false" value="XCC_VERSION_MINOR=0"/>
 									<listOptionValue builtIn="false" value="__XCC_HAVE_FLOAT__=1"/>
 								</option>
-								<option id = "com.xmos.cxx.compiler.option.include.paths.96204161" name="com.xmos.cxx.compiler.option.include.paths" superClass="com.xmos.cxx.compiler.option.include.paths" valueType="includePath">
+								<option id = "com.xmos.cxx.compiler.option.include.paths.60100444" name="com.xmos.cxx.compiler.option.include.paths" superClass="com.xmos.cxx.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include/gcc&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include/c++/4.2.1&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include/c++/4.2.1/xcore-xmos-elf&quot;"/>
                                     <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_usb_tile_support}&quot;' />
-<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example_u}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_xassert/src}&quot;' />
-<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_example_u/src}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_logging}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_demo_u}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_logging/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_demo_u/src}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_xassert}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_usb_tile_support/src}&quot;' />
 
 								</option>
-								<inputType id = "com.xmos.cdt.cxx.compiler.input.cpp.60655053" name="C++" superClass="com.xmos.cdt.cxx.compiler.input.cpp"/>
+								<inputType id = "com.xmos.cdt.cxx.compiler.input.cpp.87256699" name="C++" superClass="com.xmos.cdt.cxx.compiler.input.cpp"/>
 							</tool>
                         </toolChain>
                     </folderInfo>
@@ -510,6 +510,6 @@
 
     </storageModule>
     <storageModule moduleId="cdtBuildSystem" version="4.0.0">
-        <project id = "app_adc_example_u.null.27468850" name="app_adc_example_u" />
+        <project id = "app_adc_demo_u.null.53075910" name="app_adc_demo_u" />
     </storageModule>
 </cproject>
