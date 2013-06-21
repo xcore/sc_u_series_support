@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <xpd>
     <components>
-        <component description = "A simple demo of using the xCORE-USB peripheral tile ADC" type = "demoCode" scope = "Example" path = "app_adc_example_u" local = "false" id = "app_adc_example_u" name = "xCORE-USB Peripheral Tile ADC Example">
+        <component description = "A simple demo of using the xCORE-USB peripheral tile ADC" type = "demoCode" scope = "Example" path = "app_adc_example_u" local = "false" id = "app_adc_example_u" name = "xCORE-USB ADC Example">
             <componentDependency>module_logging</componentDependency>
             <componentDependency>module_usb_tile_support</componentDependency>
             <componentDependency>module_xassert</componentDependency>
