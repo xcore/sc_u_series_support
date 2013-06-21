@@ -35,18 +35,18 @@ Import and Build the Application
 
    #. Open xTIMEcomposer and open the edit perspective (Window->Open Perspective->XMOS Edit).
    #. Locate the ``xCORE-USB ADC Example`` item in the xSOFTip pane on the bottom left
-      of the window and drag it into the Project Explorer window in the xTIMEcomposer.
+      of the window and drag it into the Project Explorer in the xTIMEcomposer.
       This will also cause the modules on which this application depends (in this case,
       module_xassert, module_logging) to be imported as well. 
-   #. Click on the ``app_adc_demo_u`` item in the Explorer pane then click on the
-      build icon (hammer) in xTIMEcomposer. Check the console window to verify that the
+   #. Click on the ``app_adc_demo_u`` item in the Project Explorer then click on the
+      build icon (hammer) in xTIMEcomposer. Check the Console window to verify that the
       application has built successfully.
 
 Note that the Developer Column in the xTIMEcomposer on the right hand side of your screen
 provides information on the xSOFTip components you are using. Select the module_xud
 component in the Project Explorer, and you will see its description together with API
 documentation. Having done this, click the `back` icon until you return to this
-quickstart guide within the Developer Column.
+quick start guide within the Developer Column.
 
 For help in using xTIMEcomposer, try the xTIMEcomposer tutorial (See Help->Tutorials in xTIMEcomposer).
 
@@ -57,9 +57,36 @@ Now that the application has been compiled, the next step is to run it on the
 board using the tools to load the application over JTAG (via the XTAG-2 Adaptor card)
 into the xCORE multicore microcontroller.
 
-   #. Click on the ``Run`` icon (the white arrow in the green circle). A dialog will appear
-      asking which device to connect to. Select ``XMOS XTAG2``.
+   #. Click on the ``app_adc_demo_u`` item in the Project Explorer then click on the
+      ``Run`` icon (the white arrow in the green circle). A dialog will appear
+      asking which device to connect to. Select ``XMOS XTAG-2``.
    #. The application will start running and print the value of the ADC which should be
       connected to the potentiometer on the board.
    #. Turning the potentiometer will change the value the ADC is reading.
+
+*Note:* if the run dialog does not appear and let select the XTAG then do the following:
+
+   #. From the drop-down next to the ``Run`` icon select ``Run Configurations``.
+   #. Press the ``New`` icon (white sheet with small yellow ``+`` symbol in the corner).
+   #. Ensure the Project is ``app_adc_demo_u``.
+   #. From the ``Target`` drop-down select the ``XMOS XTAG-2``.
+   #. Click the ``Run`` button on the bottom right of the dialog window.
+
+*Note:* every time there is output to the Console window from the application the Console
+window is brought to the foreground. To stop the Console window coming to the foreground
+simply stop the application using the ``Stop`` button in the Console window (red square).
+
+Next Steps
+++++++++++
+
+Look at the source and change the application to use 8-bit ADC samples
+rather than 32-bit samples.
+
+   #. In the ``Project Explorer`` double click on the ``app_adc_demo_u/src/main.xc``
+      to open the main source file.
+   #. Change the ADC configuration line from ``ADC_32_BPS`` to ``ADC_8_BPS``.
+   #. Save ``main.xc`` and click on the ``Run`` icon. This will cause the application
+      to be re-compiled and start running. The values printed on the Console will
+      now be in the range 0x0 to 0xFF.
+
 
