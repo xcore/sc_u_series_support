@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <xpd>
     <components>
-        <component description = "A simple demo of using the xCORE-USB peripheral tile ADC" type = "demoCode" scope = "Example" path = "app_adc_example_u" local = "false" id = "app_adc_example_u" name = "xCORE-USB ADC Example">
+        <component description = "A simple demo of using the xCORE-USB peripheral tile ADC" type = "demoCode" scope = "Example" path = "app_adc_demo_u" local = "false" id = "app_adc_demo_u" name = "xCORE-USB ADC Demo">
             <componentDependency>module_logging</componentDependency>
             <componentDependency>module_usb_tile_support</componentDependency>
             <componentDependency>module_xassert</componentDependency>
@@ -19,7 +19,7 @@
         <version>1.0.1rc0</version>
     </dependency>
     <description>Collection of functions to support peripheral tiles.</description>
-    <docdir>app_adc_example_u/doc_quickstart</docdir>
+    <docdir>app_adc_demo_u/doc_quickstart</docdir>
     <docdir>module_usb_tile_support/doc</docdir>
     <location>origin</location>
     <name>sc_periph</name>

@@ -1,9 +1,9 @@
 xCORE-USB ADC Quick Start Guide
 ===============================
 
-.. _app_adc_example_u_quick_start:
+.. _app_adc_demo_u_quick_start:
 
-app_adc_example_u Quick Start Guide
+app_adc_demo_u Quick Start Guide
 -----------------------------------
 
 This application demonstrates how to use the ADC on xCORE-USB (U-Series)
@@ -38,7 +38,7 @@ Import and Build the Application
       of the window and drag it into the Project Explorer window in the xTIMEcomposer.
       This will also cause the modules on which this application depends (in this case,
       module_xassert, module_logging) to be imported as well. 
-   #. Click on the ``app_adc_example_u`` item in the Explorer pane then click on the
+   #. Click on the ``app_adc_demo_u`` item in the Explorer pane then click on the
       build icon (hammer) in xTIMEcomposer. Check the console window to verify that the
       application has built successfully.
 
