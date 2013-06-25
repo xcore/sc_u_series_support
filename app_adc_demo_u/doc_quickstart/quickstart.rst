@@ -43,7 +43,7 @@ Import and Build the Application
       application has built successfully.
 
 Note that the Developer Column in the xTIMEcomposer on the right hand side of your screen
-provides information on the xSOFTip components you are using. Select the module_xud
+provides information on the xSOFTip components you are using. Select the ``module_usb_tile_support``
 component in the Project Explorer, and you will see its description together with API
 documentation. Having done this, click the `back` icon until you return to this
 quick start guide within the Developer Column.
