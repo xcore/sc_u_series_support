@@ -1,7 +1,7 @@
-xCORE-USB Peripheral Tile Support Library
-=========================================
+xCORE-USB Support Library
+=========================
 
-This module provides access functions to the xCORE-USB peripheral tile.
+This module provides support functions for xCORE-USB devices.
 
 Currently the library only supports the Analog to Digital Converters (ADC).
 

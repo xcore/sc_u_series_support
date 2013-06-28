@@ -1,5 +1,5 @@
-xCORE-USB Peripheral Tile Support Library
-=========================================
+xCORE-USB Support Library
+=========================
 
 :scope: General Use
 :description: Library providing support for xCORE-USB (U-Series) devices.
@@ -8,4 +8,4 @@ xCORE-USB Peripheral Tile Support Library
 Library providing support for xCORE-USB (U-Series) devices. This is
 currently limited to the ADC.
 
-The ``xCORE-USB Peripheral Tile ADC Example`` demonstrates how to use this library.
+The ``xCORE-USB ADC Example`` demonstrates how to use this library.

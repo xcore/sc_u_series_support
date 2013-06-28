@@ -1,5 +1,5 @@
-xCORE-USB ADC Quick Start Guide
-===============================
+xCORE-USB ADC Demo Quick Start Guide
+====================================
 
 .. _app_adc_demo_u_quick_start:
 

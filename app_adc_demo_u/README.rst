@@ -1,8 +1,8 @@
-xCORE-USB Peripheral Tile ADC Demo
-==================================
+xCORE-USB ADC Demo
+==================
 
 :scope: Example
-:description: A simple demo of using the xCORE-USB peripheral tile ADC
+:description: A simple demo of using the xCORE-USB ADC
 :keywords: adc
 
 This demo shows an example of configuring the ADCs to enable ADC input 0 and
