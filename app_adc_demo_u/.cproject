@@ -156,14 +156,14 @@
 								<option id = "com.xmos.xc.compiler.option.include.paths.75736126" name="com.xmos.xc.compiler.option.include.paths" superClass="com.xmos.xc.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include/gcc&quot;"/>
-                                    <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_usb_tile_support}&quot;' />
-<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_xassert/src}&quot;' />
-<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_logging}&quot;' />
+                                    <listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_demo_u/src}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_demo_u}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_logging/src}&quot;' />
-<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_demo_u/src}&quot;' />
-<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_xassert}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_logging}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_usb_tile_support/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_usb_tile_support}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_xassert/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_xassert}&quot;' />
 
 								</option>
 								<inputType id = "com.xmos.cdt.xc.compiler.input.42795720" name="XC" superClass="com.xmos.cdt.xc.compiler.input"/>
@@ -275,14 +275,14 @@
 								<option id = "com.xmos.c.compiler.option.include.paths.38954777" name="com.xmos.c.compiler.option.include.paths" superClass="com.xmos.c.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include/gcc&quot;"/>
-                                    <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_usb_tile_support}&quot;' />
-<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_xassert/src}&quot;' />
-<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_logging}&quot;' />
+                                    <listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_demo_u/src}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_demo_u}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_logging/src}&quot;' />
-<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_demo_u/src}&quot;' />
-<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_xassert}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_logging}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_usb_tile_support/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_usb_tile_support}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_xassert/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_xassert}&quot;' />
 
 								</option>
 								<inputType id = "com.xmos.cdt.c.compiler.input.c.10147031" name="C" superClass="com.xmos.cdt.c.compiler.input.c"/>
@@ -400,14 +400,14 @@
 									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include/gcc&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include/c++/4.2.1&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include/c++/4.2.1/xcore-xmos-elf&quot;"/>
-                                    <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_usb_tile_support}&quot;' />
-<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_xassert/src}&quot;' />
-<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_logging}&quot;' />
+                                    <listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_demo_u/src}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_demo_u}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_logging/src}&quot;' />
-<listOptionValue builtIn="false" value='&quot;${workspace_loc:/app_adc_demo_u/src}&quot;' />
-<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_xassert}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_logging}&quot;' />
 <listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_usb_tile_support/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_usb_tile_support}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_xassert/src}&quot;' />
+<listOptionValue builtIn="false" value='&quot;${workspace_loc:/module_xassert}&quot;' />
 
 								</option>
 								<inputType id = "com.xmos.cdt.cxx.compiler.input.cpp.87256699" name="C++" superClass="com.xmos.cdt.cxx.compiler.input.cpp"/>
