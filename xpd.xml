@@ -23,7 +23,7 @@
     <docdir>module_usb_tile_support/doc</docdir>
     <location>origin</location>
     <name>sc_periph</name>
-    <maintainer>XMOS</maintainer>
+    <maintainer>pthedinger</maintainer>
     <partnumber>XM-002789-DH</partnumber>
     <release parenthash = "b2534ac532b88cfd5461ce191240b56aca3d025b" version = "1.0.0alpha0" githash = "897caa907b74932302744259cf947e02acaf350e"></release>
     <release parenthash = "546a89386f7155b450780bc70ccbeff70f64548c" version = "1.0.0beta0" githash = "1951dd091e02f1d1471adcab48f3f0df58d69041"></release>
