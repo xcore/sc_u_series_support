@@ -25,7 +25,8 @@
     <name>sc_periph</name>
     <maintainer>pthedinger</maintainer>
     <partnumber>XM-002789-DH</partnumber>
-    <release parenthash = "5c58f698049e2a84e3df4bbbe88bfecf8a4eb241" version = "1.0.0rc0"></release>
+    <release parenthash = "5c58f698049e2a84e3df4bbbe88bfecf8a4eb241" version = "1.0.0rc0" githash = "069980a1374cb56f655c79b57749caa62072cf08"></release>
+    <release parenthash = "c9e393a5814cc0035e4271fe6d6b01b990941a28" version = "1.0.0rc1"></release>
     <subpartnumber>XM-002790-SM</subpartnumber>
     <vendor>XMOS</vendor>
     <version_defines></version_defines>
