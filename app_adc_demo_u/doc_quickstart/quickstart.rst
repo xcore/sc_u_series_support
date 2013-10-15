@@ -64,14 +64,6 @@ into the xCORE multicore microcontroller.
       connected to the potentiometer on the board.
    #. Turning the potentiometer will change the value the ADC is reading.
 
-*Note:* if the run dialog does not appear and let select the XTAG then do the following:
-
-   #. From the drop-down next to the ``Run`` icon select ``Run Configurations``.
-   #. Press the ``New`` icon (white sheet with small yellow ``+`` symbol in the corner).
-   #. Ensure the Project is ``app_adc_demo_u``.
-   #. From the ``Target`` drop-down select the ``XMOS XTAG-2``.
-   #. Click the ``Run`` button on the bottom right of the dialog window.
-
 *Note:* every time there is output to the Console window from the application the Console
 window is brought to the foreground. To stop the Console window coming to the foreground
 simply stop the application using the ``Stop`` button in the Console window (red square).
