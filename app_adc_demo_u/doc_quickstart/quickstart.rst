@@ -1,10 +1,10 @@
-xCORE-USB ADC Demo Quick Start Guide
+xCORE-USB ADC demo quick start guide
 ====================================
 
 .. _app_adc_demo_u_quick_start:
 
-app_adc_demo_u Quick Start Guide
------------------------------------
+Quick start guide (app_adc_demo_u)
+----------------------------------
 
 This application demonstrates how to use the ADC on xCORE-USB (U-Series)
 devices. The demo is designed to run out of the box on the ``USB AUDIO 2.0 DJ KIT``
@@ -13,7 +13,7 @@ devices. The demo is designed to run out of the box on the ``USB AUDIO 2.0 DJ KI
 The application reads the ADC and prints to the console whenever the ADC value
 changes. The ADC input is connected to the potentiometer on the board.
 
-Hardware Setup
+Hardware setup
 ++++++++++++++
 
 To setup the hardware (:ref:`adc_u_example_hardware_setup`):
@@ -30,7 +30,7 @@ To setup the hardware (:ref:`adc_u_example_hardware_setup`):
 
    Hardware Setup for U-Series ADC example
 
-Import and Build the Application
+Import and build the application
 ++++++++++++++++++++++++++++++++
 
    #. Open xTIMEcomposer and open the edit perspective (Window->Open Perspective->XMOS Edit).
@@ -50,7 +50,7 @@ quick start guide within the Developer Column.
 
 For help in using xTIMEcomposer, try the xTIMEcomposer tutorial (See Help->Tutorials in xTIMEcomposer).
 
-Run the Application
+Run the application
 +++++++++++++++++++
 
 Now that the application has been compiled, the next step is to run it on the
@@ -68,7 +68,7 @@ into the xCORE multicore microcontroller.
 window is brought to the foreground. To stop the Console window coming to the foreground
 simply stop the application using the ``Stop`` button in the Console window (red square).
 
-Next Steps
+Next steps
 ++++++++++
 
 Look at the source and change the application to use 8-bit ADC samples
