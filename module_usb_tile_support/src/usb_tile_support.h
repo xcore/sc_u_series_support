@@ -9,7 +9,7 @@
 /****
  * This file provides all the support required for peripherals tile of
  * U-Series devices:
- * 
+ *
  *  - Analog to Digital Converters (adc.h)
  *
  ****/

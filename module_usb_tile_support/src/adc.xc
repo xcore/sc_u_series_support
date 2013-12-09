@@ -62,7 +62,7 @@ void adc_enable(tileref periph_tile, chanend adc_chan, out port trigger_port, co
     // Ensure that the global configuration is disabled, otherwise the individual ADC
     // configuration registers are read-only
     adc_disable_all(periph_tile);
-    
+
     // Drive trigger port low to ensure calibration pulses are all seen
     trigger_port <: 0;
 
@@ -112,7 +112,7 @@ void adc_trigger_packet(out port trigger_port, const_adc_config_ref_t config)
         adc_trigger(trigger_port);
 }
 
-void adc_read(chanend adc_chan, 
+void adc_read(chanend adc_chan,
               const_adc_config_ref_t config,
               unsigned int &data)
 {
@@ -134,7 +134,7 @@ void adc_read(chanend adc_chan,
     }
 }
 
-void adc_read_packet(chanend adc_chan, 
+void adc_read_packet(chanend adc_chan,
               const_adc_config_ref_t config,
               unsigned int data[])
 {

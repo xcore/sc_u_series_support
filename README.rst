@@ -1,9 +1,9 @@
 U-Series Support Library
 ........................
 
-:Latest release: 1.0.0rc1
+:Latest release: 1.0.1rc0
 :Maintainer: pthedinger
-:Description: Collection of functions to support xCORE-USB devices.
+:Description: Collection of functions to support peripheral tiles.
 
 
 The xCORE-USB (U-Series) Support Library provides a set of functions and datatypes

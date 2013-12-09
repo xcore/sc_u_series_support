@@ -49,9 +49,9 @@ typedef enum adc_bits_per_sample_t {
  */
 typedef struct {
     char                   input_enable[XS1_MAX_NUM_ADC];
-    adc_bits_per_sample_t  bits_per_sample;          
-    unsigned int           samples_per_packet;       
-    int                    calibration_mode;         
+    adc_bits_per_sample_t  bits_per_sample;
+    unsigned int           samples_per_packet;
+    int                    calibration_mode;
 } adc_config_t;
 
 #ifndef __XC__
@@ -72,7 +72,7 @@ typedef const adc_config_t & const_adc_config_ref_t;
  * \param trigger_port The port connected to the ADC trigger pin.
  * \param config       The configuration to be used.
  *
- * \return ADC_OK on success and one of the return codes in adc_return_t on an error. 
+ * \return ADC_OK on success and one of the return codes in adc_return_t on an error.
  */
 void adc_enable(tileref periph_tile, chanend adc_chan, out port trigger_port, const_adc_config_ref_t config);
 
@@ -117,7 +117,7 @@ void adc_trigger_packet(out port trigger_port, const_adc_config_ref_t config);
 #ifdef __XC__
 #pragma select handler
 #endif
-void adc_read(chanend adc_chan, 
+void adc_read(chanend adc_chan,
               const_adc_config_ref_t config,
               REFERENCE_PARAM(unsigned int, data));
 
@@ -141,7 +141,7 @@ void adc_read(chanend adc_chan,
 #ifdef __XC__
 #pragma select handler
 #endif
-void adc_read_packet(chanend adc_chan, 
+void adc_read_packet(chanend adc_chan,
               const_adc_config_ref_t config,
               unsigned int data[]);
 
