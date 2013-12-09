@@ -21,7 +21,7 @@
     <description>Collection of functions to support peripheral tiles.</description>
     <docdir>app_adc_demo_u/doc_quickstart</docdir>
     <docdir>module_usb_tile_support/doc</docdir>
-    <location>origin</location>
+    <location>git://github.com/xcore/sc_u_series_support</location>
     <name>sc_periph</name>
     <maintainer>pthedinger</maintainer>
     <partnumber>XM-002789-DH</partnumber>
