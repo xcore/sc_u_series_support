@@ -1,7 +1,7 @@
 U-Series Support Library
 ........................
 
-:Latest release: 1.0.1rc0
+:Latest release: 1.0.2rc0
 :Maintainer: pthedinger
 :Description: Collection of functions to support peripheral tiles.
 
