@@ -16,9 +16,8 @@
     </components>
     <dependency repo = "sc_util">
         <gitbranch>master</gitbranch>
-        <githash>f09fda14976cf969ae792e7c28b4e5a30e4c1eb9</githash>
+        <githash>ea3f119293590a416e4a7f9d34804b6ac4972156</githash>
         <uri>git://github.com/xcore/sc_util</uri>
-        <version>1.0.4rc0</version>
     </dependency>
     <description>Collection of functions to support peripheral tiles.</description>
     <docdir>app_adc_demo_u/doc_quickstart</docdir>
@@ -30,7 +29,7 @@
     <release parenthash = "5c58f698049e2a84e3df4bbbe88bfecf8a4eb241" version = "1.0.0rc0" githash = "069980a1374cb56f655c79b57749caa62072cf08"></release>
     <release parenthash = "c9e393a5814cc0035e4271fe6d6b01b990941a28" version = "1.0.0rc1" githash = "28460a6d9ed5dbd31d420b321d56c68d52f9ed8c"></release>
     <release parenthash = "c35e5d010fb23906bb534f79efeae8e7e4a8c87e" version = "1.0.1rc0" githash = "8d830f8a72e1b58cb9afc99b729c86133d7aa144"></release>
-    <release parenthash = "3f4ffa7e1e1aa2a70c700bc71ff486f50d2670ed" version = "1.0.2rc0"></release>
+    <release parenthash = "3f4ffa7e1e1aa2a70c700bc71ff486f50d2670ed" version = "1.0.2rc0" githash = "2289648be3f6ae3f9ee8031abd47b5e2021a23b0"></release>
     <subpartnumber>XM-002790-SM</subpartnumber>
     <vendor>XMOS</vendor>
     <version_defines></version_defines>
