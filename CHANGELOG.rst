@@ -6,7 +6,7 @@ sc_u_series_support Change Log
 
   * Changes to dependencies:
 
-    - sc_util: 1.0.4rc0 -> 1.0.5alpha0
+    - sc_util: 1.0.4rc0 -> 1.0.5rc0
 
       + xCORE-200 Compatiblity fixes to module_locks
 
